@@ -2,13 +2,13 @@
 <html>
 <head>
 
-<meta name="description" content="Compost and recycling pickup and dirt delivery in Nederland, CO.">
+<meta name="description" content="Compost and recycling pickup and soil amendment delivery in Nederland, CO.">
 <meta name="keywords" content="compost, recycle, pickup, zero waste, Nederland, Ned, CO, colorado">
 <meta charset="UTF-8">
 <meta name="copyright" content="2011">
 
 <title>nedCompost</title>
-	
+    
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection">
 <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700' rel='stylesheet' type='text/css'>
 <!--<link rel="shortcut icon" href="http://www.fleetcreature.com/favicon.ico" type="image/ico" />-->
@@ -39,7 +39,7 @@
                     <a href="signup.html" alt="sign up for compost pickup">
                         <div class="button cf">
                             <p>Monthly </br> Pickup</p>
-                            <h2>$8</h2>
+                            <h2>$8/$25</h2>
                         </div>
                     </a>
                     <a href="signup.html" alt="volunteer for ned compost">
@@ -55,7 +55,8 @@
                 </aside>
                 <h1 class = "section-header section-header-top">About Nederland Composting<a href="http://twitter.com/#!/nedcompost" target="_blank" class="twit-header">@NedCompost</a></h1>
                 <section class = "span2">
-                    <p>Bacon ipsum dolor sit amet pancetta shoulder leberkäse boudin venison capicola. Ball tip jerky kielbasa, tenderloin leberkäse pancetta salami drumstick brisket. Spare ribs chuck short loin, ball tip strip steak tri-tip sirloin shankle beef prosciutto drumstick ground round. Brisket short ribs shoulder ham ribeye corned beef, pork chop tri-tip kielbasa tail short loin t-bone.<p>
+                    <p>Working to provide municipal scale composting and waste diversion planning, training, volunteer staffing and infrastructure for the Front Range region of Colorado.
+                    </p>
                     <h1 class = "section-header">See what we're up to!</h1>
                     <div id="images">
                     </div>
@@ -99,7 +100,7 @@ format: "json"
 },
 function(data) {
 $.each(data.items, function(i,item){
-$("<img/>").attr("src", item.media.m).appendTo("#images");
+$("<img/>").attr("src", item.media.m.replace('_m.jpg', '_b.jpg')).appendTo("#images");
 if ( i == 3 ) return false;
 });
 });</script>
