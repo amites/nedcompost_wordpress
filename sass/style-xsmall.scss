@@ -1,0 +1,145 @@
+@import 'vars';
+@import 'mixins';
+
+/*
+	Exponent by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+	
+	html, body {
+		min-width: 320px;
+	}
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+/* Section/Article */
+
+	header {
+		&.major {
+			text-align: left;
+		}
+	}
+
+/* Icon */
+
+	.icon {
+		&.major {
+			font-size: 0.5em;
+		}
+	}
+
+/* List */
+
+	ul {
+		&.actions {
+			margin: 0 0 $size-element-margin 0;
+			
+			li {
+				display: block;
+				padding: ($size-element-margin * 0.5) 0 0 0;
+				text-align: center;
+				width: 100%;
+				
+				&:first-child {
+					padding-top: 0;
+				}
+				
+				> * {
+					margin: 0 !important;
+					width: 100%;
+					
+					&.icon {
+						&:before {
+							margin-left: -1em;
+						}
+					}
+				}
+			}
+			
+			&.small {
+				li {
+					padding: ($size-element-margin * 0.25) 0 0 0;
+
+					&:first-child {
+						padding-top: 0;
+					}
+				}
+			}
+		}
+
+		&.major-icons {
+			li {
+				text-align: left;
+				
+				.icon {
+					display: block;
+					float: left;
+					font-size: 0.3em;
+					margin: 0;
+				}
+				
+				p {
+					color: $color-fg;
+					display: block;
+					font-size: 0.9em;
+					font-weight: $font-weight;
+					margin: 0.5em 0 $size-element-margin 4.5em;
+				}
+				
+				&:after {
+					clear: both;
+					content: '';
+					display: block;
+				}
+			}
+		}
+	}
+	
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		padding: 0 !important;
+	}
+
+/* Banner */
+
+	#banner {
+		padding: 6em 0;
+	}
+
+/* Main */
+
+	#main {
+		> section.feature {
+			text-align: inherit;
+			
+			&.major {
+				h2 {
+					padding: 0 1em;
+				}
+			}
+		}
+	}
+	
+/* Footer */
+
+	#footer {
+		.about {
+			text-align: inherit;
+		}
+		
+		.copyright {
+			p, .menu {
+				display: block;
+				margin: 0 0 ($size-element-margin * 0.5) 0;
+			}
+		}
+	}

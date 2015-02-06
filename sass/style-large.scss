@@ -1,0 +1,45 @@
+@import 'vars';
+@import 'mixins';
+
+/*
+	Exponent by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+$size-main-padding: 5.5em;
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+	
+/* Main */
+
+	#main {
+		padding: $size-main-padding 0 ($size-main-padding - $size-element-margin) 0;
+
+		> section.feature {
+			padding: $size-main-padding 0 ($size-main-padding - $size-element-margin) 0;
+		}
+
+		> section:not(.feature) + section.feature {
+			margin-top: $size-main-padding;
+		}
+
+		> section.feature + section:not(.feature) {
+			padding-top: $size-main-padding;
+		}
+	}
+	
+/* Footer */
+
+	#footer {
+		padding: $size-main-padding 0;
+
+		.copyright {
+			margin-top: ($size-main-padding - $size-element-margin);
+			padding-top: ($size-main-padding * 0.75);
+		}
+	}

@@ -1,0 +1,40 @@
+/*
+	Exponent by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+/* Main */
+
+	#main {
+		padding: 5.5em 0 3.5em 0;
+	}
+
+		#main > section.feature {
+			padding: 5.5em 0 3.5em 0;
+		}
+
+		#main > section:not(.feature) + section.feature {
+			margin-top: 5.5em;
+		}
+
+		#main > section.feature + section:not(.feature) {
+			padding-top: 5.5em;
+		}
+
+/* Footer */
+
+	#footer {
+		padding: 5.5em 0;
+	}
+
+		#footer .copyright {
+			margin-top: 3.5em;
+			padding-top: 4.125em;
+		}

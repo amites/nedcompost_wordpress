@@ -1,0 +1,137 @@
+@import 'vars';
+@import 'mixins';
+
+/*
+	Exponent by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+$size-main-padding: 4.5em;
+$size-header-height: 3em;
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		br {
+			display: none;
+		}
+	}
+
+/* Icon */
+
+	.icon {
+		&.major {
+			height: 10em;
+			line-height: 10em;
+			width: 10em;
+		}
+	}
+
+/* List */
+
+	ul {
+		&.major-icons {
+			margin-top: 0;
+		}
+	}
+
+/* Header */
+
+	#skel-layers-wrapper {
+		padding-top: $size-header-height;
+	}
+
+	#header {
+		height: $size-header-height;
+		line-height: $size-header-height;
+
+		h1 {
+			a {
+				font-size: 1em;
+			}
+		}
+	}
+
+/* Banner */
+
+	#banner {
+		background-attachment: scroll;
+		background-position: top left, top 75%;
+		height: calc(100vh - $size-header-height);
+
+		.inner {
+			.footnote {
+				position: relative;
+			}
+		}
+	}
+
+/* Main */
+
+	#main {
+		padding: $size-main-padding 0 ($size-main-padding - $size-element-margin) 0;
+
+		> section.feature {
+			padding: $size-main-padding 0 ($size-main-padding - $size-element-margin) 0;
+			text-align: center;
+
+			&.major {
+				padding-left: 2em;
+				padding-right: 2em;
+			}
+		}
+
+		> section:not(.feature) + section.feature {
+			margin-top: $size-main-padding;
+		}
+
+		> section.feature + section:not(.feature) {
+			padding-top: $size-main-padding;
+		}
+	}
+
+/* Footer */
+
+	#footer {
+		padding: $size-main-padding 0;
+
+		.about {
+			text-align: center;
+		}
+
+		.copyright {
+			margin-top: ($size-main-padding - $size-element-margin);
+			padding-top: ($size-main-padding * 0.75);
+		}
+	}
+
+/* Menu Panel */
+
+	#menuPanel {
+		padding: 1.75em 1.5em;
+
+		h2 {
+			font-size: 1em;
+		}
+
+		.closer {
+			&:before {
+				top: 0.5em;
+			}
+		}
+
+		#menuPanel-content {
+			ul {
+				li {
+					> a, > span {
+						line-height: $size-header-height;
+					}
+				}
+			}
+		}
+	}

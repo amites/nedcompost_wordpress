@@ -1,0 +1,64 @@
+@mixin line-icon($size: 1px) {
+	@include icon;
+	
+	&:before {
+		color: $color-bg !important;
+		text-shadow:	$size 0 0 $color-accent-bg,
+						($size * -1) 0 0 $color-accent-bg,
+						0 $size 0 $color-accent-bg,
+						0 ($size * -1) 0 $color-accent-bg;
+	}
+}
+
+// Duration.
+	$duration-transition:		0.2s;
+
+// Size.
+	$size-border-radius:		6px;
+	$size-element-height:		2.75em;
+	$size-element-margin:		2em;
+
+// Font.
+	$font-family:				Arial, Helvetica, sans-serif;
+	$font-family-fixed:			'Courier New', monospace;
+	$font-weight:				normal;
+	$font-weight-bold:			bold;
+
+// Color.
+	$color-shadow:				rgba(20,40,64,0.1);
+	
+	$color-bg:					#fff;
+	$color-fg:					#93999a;
+	$color-fg-bold:				#626c6e;
+	$color-fg-light:			#bbbebf;
+	$color-border:				#e2eaec;
+	$color-border-bg:			rgba(144,144,144,0.075);
+	$color-border2:				#c2cacc;
+	$color-border2-bg:			rgba(144,144,144,0.2);
+
+	$color-accent-bg:			#7ed5b1;
+	$color-accent-fg-bold:		#ffffff;
+	$color-accent-fg:			mix($color-accent-bg, $color-accent-fg-bold, 25%);
+	$color-accent-fg-light:		mix($color-accent-bg, $color-accent-fg-bold, 40%);
+	$color-accent-border:		#ffffff;
+	$color-accent-border-bg:	rgba(255,255,255,0.075);
+	$color-accent-border2:		#ffffff;
+	$color-accent-border2-bg:	rgba(255,255,255,0.2);
+	
+	$color-accent2-bg:			#626c6e;
+	$color-accent2-fg-bold:		#ffffff;
+	$color-accent2-fg:			mix($color-accent2-bg, $color-accent2-fg-bold, 25%);
+	$color-accent2-fg-light:	mix($color-accent2-bg, $color-accent2-fg-bold, 40%);
+	$color-accent2-border:		#ffffff;
+	$color-accent2-border-bg:	rgba(255,255,255,0.075);
+	$color-accent2-border2:		#ffffff;
+	$color-accent2-border2-bg:	rgba(255,255,255,0.2);
+	
+	$color-accent3-bg:			#f7f9fa;
+	$color-accent3-fg-bold:		$color-fg-bold;
+	$color-accent3-fg:			$color-fg;
+	$color-accent3-fg-light:	$color-fg-light;
+	$color-accent3-border:		#d2dadc;
+	$color-accent3-border-bg:	rgba(144,144,144,0.075);
+	$color-accent3-border2:		#b2babc;
+	$color-accent3-border2-bg:	rgba(144,144,144,0.2);

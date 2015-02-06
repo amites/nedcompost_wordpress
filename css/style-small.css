@@ -1,0 +1,182 @@
+/*
+	Exponent by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+	}
+
+	h4 {
+		font-size: 1em;
+	}
+
+/* Section/Article */
+
+	header.major {
+		margin: 0 0 2em 0;
+	}
+
+		header.major h2 {
+			font-size: 1.75em;
+		}
+
+		header.major p {
+			font-size: 1em;
+		}
+
+/* Icon */
+
+	.icon.major {
+		font-size: 0.8em;
+	}
+
+/* Header */
+
+	#skel-layers-wrapper {
+		padding-top: 2.75em;
+	}
+
+	#header {
+		height: 2.75em;
+		line-height: 2.75em;
+	}
+
+		#header h1 {
+			left: 0.75em;
+		}
+
+			#header h1 a {
+				font-size: 1em;
+			}
+
+		#header nav ul li:not(.special) {
+			display: none;
+		}
+
+		#header nav ul li.special {
+			height: 2.75em;
+			width: 4em;
+		}
+
+			#header nav ul li.special a {
+				height: 4em;
+				overflow-x: hidden;
+				padding: 0;
+				position: relative;
+				text-indent: 200%;
+				white-space: nowrap;
+				width: 4em;
+			}
+
+				#header nav ul li.special a:before {
+					height: 2.75em;
+					left: 0;
+					position: absolute;
+					text-align: center;
+					text-indent: 0;
+					top: 0;
+					width: 4em;
+				}
+
+/* Banner */
+
+	#banner {
+		height: auto;
+		min-height: 0;
+		padding: 4em 0;
+	}
+
+		#banner:before {
+			display: none;
+		}
+
+		#banner h2 {
+			font-size: 1.75em;
+		}
+
+		#banner .inner {
+			display: block;
+			margin: 0 auto;
+			max-width: 90%;
+			width: 90%;
+		}
+
+		#banner .more {
+			display: none;
+		}
+
+/* Main */
+
+	#main {
+		padding: 3em 0 1em 0;
+	}
+
+		#main > section.feature {
+			padding: 3em 0 1em 0;
+		}
+
+			#main > section.feature.major {
+				padding-left: 0;
+				padding-right: 0;
+			}
+
+				#main > section.feature.major .icon {
+					margin: 0 0 2em 0;
+				}
+
+				#main > section.feature.major h2 {
+					font-size: 1.5em;
+				}
+
+				#main > section.feature.major p {
+					font-size: 1em;
+				}
+
+		#main > section:not(.feature) + section.feature {
+			margin-top: 3em;
+		}
+
+		#main > section.feature + section:not(.feature) {
+			padding-top: 3em;
+		}
+
+/* Footer */
+
+	#footer {
+		padding: 3em 0;
+	}
+
+		#footer .copyright {
+			margin-top: 1em;
+			padding-top: 2.25em;
+		}
+
+/* Menu Panel */
+
+	#menuPanel {
+		padding: 1.25em;
+	}
+
+		#menuPanel h2 {
+			font-size: 1em;
+		}
+
+		#menuPanel .closer:before {
+			top: 0;
+		}
+
+		#menuPanel #menuPanel-content ul li > a, #menuPanel #menuPanel-content ul li > span {
+			line-height: 2.75em;
+		}

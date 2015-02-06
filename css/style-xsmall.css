@@ -1,0 +1,122 @@
+/*
+	Exponent by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+
+	html, body {
+		min-width: 320px;
+	}
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+/* Section/Article */
+
+	header.major {
+		text-align: left;
+	}
+
+/* Icon */
+
+	.icon.major {
+		font-size: 0.5em;
+	}
+
+/* List */
+
+	ul.actions {
+		margin: 0 0 2em 0;
+	}
+
+		ul.actions li {
+			display: block;
+			padding: 1em 0 0 0;
+			text-align: center;
+			width: 100%;
+		}
+
+			ul.actions li:first-child {
+				padding-top: 0;
+			}
+
+			ul.actions li > * {
+				margin: 0 !important;
+				width: 100%;
+			}
+
+				ul.actions li > *.icon:before {
+					margin-left: -1em;
+				}
+
+		ul.actions.small li {
+			padding: 0.5em 0 0 0;
+		}
+
+			ul.actions.small li:first-child {
+				padding-top: 0;
+			}
+
+	ul.major-icons li {
+		text-align: left;
+	}
+
+		ul.major-icons li .icon {
+			display: block;
+			float: left;
+			font-size: 0.3em;
+			margin: 0;
+		}
+
+		ul.major-icons li p {
+			color: #93999a;
+			display: block;
+			font-size: 0.9em;
+			font-weight: normal;
+			margin: 0.5em 0 2em 4.5em;
+		}
+
+		ul.major-icons li:after {
+			clear: both;
+			content: '';
+			display: block;
+		}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		padding: 0 !important;
+	}
+
+/* Banner */
+
+	#banner {
+		padding: 6em 0;
+	}
+
+/* Main */
+
+	#main > section.feature {
+		text-align: inherit;
+	}
+
+		#main > section.feature.major h2 {
+			padding: 0 1em;
+		}
+
+/* Footer */
+
+	#footer .about {
+		text-align: inherit;
+	}
+
+	#footer .copyright p, #footer .copyright .menu {
+		display: block;
+		margin: 0 0 1em 0;
+	}
