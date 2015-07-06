@@ -1,0 +1,20 @@
+.idea
+env/
+
+# C extensions
+*.so
+
+# General things that just shouldn't be tracked
+local_*
+settings_*.py
+*.log
+*.tar.gz
+*.bak
+*.swp
+
+django.db
+.sass-cache
+fab_settings.py
+*.lock
+.bundle
+vendor

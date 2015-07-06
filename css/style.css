@@ -10,6 +10,7 @@
 
 	body {
 		background: #fff;
+		font-family: 'Josefin Slab', serif;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -27,7 +28,7 @@
 
 	body, input, select, textarea {
 		color: #93999a;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Josefin Slab', serif;
 		font-size: 14pt;
 		font-weight: normal;
 		letter-spacing: -0.025em;
@@ -567,6 +568,11 @@
 				width: 100%;
 			}
 
+#cycle {
+	max-width: 100%;
+}
+
+
 /* List */
 
 	ol {
@@ -887,6 +893,10 @@
 		white-space: nowrap;
 	}
 
+	.button-brown {
+		background-color: rgba(224, 207, 168, 0.61);
+	}
+
 		input[type="submit"]:hover, input[type="submit"]:active,
 		input[type="reset"]:hover,
 		input[type="reset"]:active,
@@ -943,8 +953,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #7ed5b1 !important;
-			box-shadow: none !important;
+			background-color: #538CB0 !important;
 			color: #ffffff !important;
 		}
 
@@ -1002,14 +1011,15 @@
 	#header {
 		background: #fff;
 		border-bottom: solid 1px #e2eaec;
-		height: 3.5em;
+		height: 4em;
 		left: 0;
-		line-height: 3.5em;
+		line-height: 4em;
 		position: fixed;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
 	}
+
 
 		#header h1 {
 			height: inherit;
@@ -1023,6 +1033,7 @@
 				text-decoration: none;
 				border: 0;
 				font-size: 1.25em;
+				text-transform: uppercase;
 			}
 
 				#header h1 a:before {
@@ -1041,8 +1052,9 @@
 
 				#header h1 a:before {
 					color: #7ed5b1;
-					content: '\f0c2';
+				/*	content: url("images/greenbucket.png"); */
 					margin-right: 0.6em;
+					max-height: 80%;
 				}
 
 		#header nav {
@@ -1099,6 +1111,10 @@
 
 /* Banner */
 
+	.banner {
+
+	}
+
 	#banner {
 		background-attachment: fixed,							fixed;
 		background-image: url("images/overlay.png"), url("../images/banner.jpg");
@@ -1141,6 +1157,8 @@
 			#banner .button:active {
 				background-color: rgba(255, 255, 255, 0.2);
 			}
+
+			rgba(121, 129, 126, 0.5)
 
 		#banner ul.labeled-icons li .icon {
 			border-color: #ffffff;
@@ -1193,6 +1211,14 @@
 			vertical-align: middle;
 		}
 
+		.banner-logo {
+			max-width: 100%;
+		}
+
+		.small-banner-logo {
+			max-height: 90%;
+		}
+
 		#banner .inner {
 			-moz-transition: opacity 1s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out;
@@ -1202,6 +1228,9 @@
 			display: inline-block;
 			max-width: 95%;
 			opacity: 1;
+			background: rgba(121, 124, 123, 0.6);
+			padding: 3em;
+			border-radius: 6px;
 			position: relative;
 			vertical-align: middle;
 			z-index: 2;

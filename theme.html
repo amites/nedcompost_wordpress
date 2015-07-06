@@ -11,35 +11,22 @@
   <head>
     <meta charset="utf-8">
     <title>
-      {% if is_login %}Login
-      {% elif is_home %}{{ site.author }}
-      {% elif is_tag %}{{ tag }}
-      {% elif post %}{{ post.title }}
-      {% endif %}
-      | {{ site.name }}
+      
     </title>
-
-    {{ header_meta }}
-
-    <link href="{{ assets('css/style.css') }}" rel="stylesheet" />
-
-    {% if site.analytics %}
-    <script>
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', '{{ site.analytics }}']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-    </script>
-    {% endif %}
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/skel.css">
+    <link rel="stylesheet" type="text/css" href="css/style-large.css">
+    <link rel="stylesheet" type="text/css" href="css/style-medium.css">
+    <link rel="stylesheet" type="text/css" href="css/style-small.css">
+    <link rel="stylesheet" type="text/css" href="css/style-xlarge.css">
+    <link rel="stylesheet" type="text/css" href="css/style-xsmall.css"> 
   </head>
 	<body>
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="index.html">Exponent</a></h1>
+				<h1><a href="index.html">NedCompost</a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="#">Sign Up</a></li>
