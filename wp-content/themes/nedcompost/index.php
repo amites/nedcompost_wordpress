@@ -10,26 +10,26 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="<?php echo esc_url( get_template_directory_uri() ); ?>css/ie/html5shiv.js"></script><![endif]-->
-		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>js/jquery.min.js"></script>
-		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>js/jquery.scrolly.min.js"></script>
-		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>js/skel.min.js"></script>
-		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>js/skel-layers.min.js"></script>
-		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>js/init.js"></script>
+		<!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/css/ie/html5shiv.js"></script><![endif]-->
+		<script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/jquery.scrolly.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/skel.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/skel-layers.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/init.js"></script>
 		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
+			<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/skel.css" />
+			<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css" />
+			<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style-xlarge.css" />
 		</noscript>
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="index.html"><img class="small-banner-logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>css/images/logo.png"></a></h1>
+				<h1><a href="index.html"><img class="small-banner-logo" src="<?php bloginfo('template_url'); ?>/css/images/logo.png"></a></h1>
 				<nav id="nav">
                     <ul>
                         <li class="selected"><a href="http://www.nedcompost.org/p/sign-up-to-compost.html">Sign Up to Compost</a></li>
@@ -71,7 +71,7 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<img class="banner-logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>images/NedCompost-bucket.svg">
+					<img class="banner-logo" src="<?php bloginfo('template_url'); ?>/images/NedCompost-bucket.svg">
 					<h3>Establishing Zero-Waste and building soil in Nederland, CO!</h3>					
 					<ul class="actions">
 						<li><a href="#" class="button big special">Sign Up for Service</a></li>
@@ -102,7 +102,7 @@
 								</ul>
 							</div>
 							<div class="8u$ 12u$(medium)">
-								<img id="cycle" src="<?php echo esc_url( get_template_directory_uri() ); ?>images/Ned_compost_cycle.svg">
+								<img id="cycle" src="<?php bloginfo('template_url'); ?>/images/Ned_compost_cycle.svg">
 							</div>
 						</div>
 					</section>
@@ -116,25 +116,25 @@
 										<div class="6u 12u$(xsmall)">
 											<a href="#" class="image fit">
 												<h3 class="caption">Taylor Adams: Route Manager/Board Member</h3>
-												<img src="<?php echo esc_url( get_template_directory_uri() ); ?>images/taylor.jpg" alt="" />
+												<img src="<?php bloginfo('template_url'); ?>/images/taylor.jpg" alt="" />
 											</a>
 										</div>
 										<div class="6u$ 12u$(xsmall)">
 											<a href="#" class="image fit">
 												<h3 class="caption">Kate O'Faherty: Exec. Director/Board Member</h3>
-												<img src="<?php echo esc_url( get_template_directory_uri() ); ?>images/kate1.jpg" alt="" />
+												<img src="<?php bloginfo('template_url'); ?>/images/kate1.jpg" alt="" />
 											</a>
 										</div>
 										<div class="6u 12u$(xsmall)">
 											<a href="#" class="image fit">
 												<h3 class="caption">Alvin Mites: Microbiologist/Board Member</h3>
-												<img src="<?php echo esc_url( get_template_directory_uri() ); ?>images/alvin.jpg" alt="" />
+												<img src="<?php bloginfo('template_url'); ?>/images/alvin.jpg" alt="" />
 											</a>
 										</div>
 										<div class="6u$ 12u$(xsmall)">
 											<a href="#" class="image fit">
 												<h3 class="caption">Jesse Seavers: Org Development/Board Member</h3>
-												<img src="<?php echo esc_url( get_template_directory_uri() ); ?>images/jesse2.jpg" alt="" />
+												<img src="<?php bloginfo('template_url'); ?>/images/jesse2.jpg" alt="" />
 											</a>
 										</div>
 									</div>

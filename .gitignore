@@ -8,6 +8,7 @@ env/
 
 # General things that just shouldn't be tracked
 local_*
+*.local
 settings_*.py
 *.log
 *.tar.gz
@@ -20,3 +21,5 @@ fab_settings.py
 *.lock
 .bundle
 vendor
+
+.DS_Store
