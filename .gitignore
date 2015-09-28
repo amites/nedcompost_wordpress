@@ -1,4 +1,10 @@
 wp-config.php
+wp-content/uploads
+
+
+#################################################
+# General things that just shouldn't be tracked #
+#################################################
 
 .idea
 env/
@@ -6,7 +12,6 @@ env/
 # C extensions
 *.so
 
-# General things that just shouldn't be tracked
 local_*
 *.local
 settings_*.py
