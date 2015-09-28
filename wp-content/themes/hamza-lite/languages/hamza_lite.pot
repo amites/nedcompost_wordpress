@@ -1,0 +1,1470 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hamza Lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Jul 23 2015 15:55:40 GMT+0545 (Nepal Standard Time)\n"
+"POT-Revision-Date: Thu Jul 23 2015 15:56:35 GMT+0545 (Nepal Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:18
+msgid "404"
+msgstr ""
+
+#: ../404.php:19
+msgid "error"
+msgstr ""
+
+#: ../404.php:23
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: ../archive.php:29
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../archive.php:32
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../archive.php:35
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../archive.php:35
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:38
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../archive.php:38
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:41
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:44
+msgid "Galleries"
+msgstr ""
+
+#: ../archive.php:47
+msgid "Images"
+msgstr ""
+
+#: ../archive.php:50
+msgid "Videos"
+msgstr ""
+
+#: ../archive.php:53
+msgid "Quotes"
+msgstr ""
+
+#: ../archive.php:56
+msgid "Links"
+msgstr ""
+
+#: ../archive.php:59
+msgid "Statuses"
+msgstr ""
+
+#: ../archive.php:62
+msgid "Audios"
+msgstr ""
+
+#: ../archive.php:65
+msgid "Chats"
+msgstr ""
+
+#: ../archive.php:68
+msgid "Archives"
+msgstr ""
+
+#: ../comments.php:28
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:35 ../comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:36 ../comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:37 ../comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: ../footer.php:55
+msgid "Copyright"
+msgstr ""
+
+#: ../footer.php:62
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: ../footer.php:64
+msgid "Theme:"
+msgstr ""
+
+#: ../functions.php:65
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:66
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../index-one.php:289
+msgid "by "
+msgstr ""
+
+#: ../index-one.php:309
+msgid "Read All Blog"
+msgstr ""
+
+#: ../index-one.php:371
+msgid "Contact Us"
+msgstr ""
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:9
+msgid "Search"
+msgstr ""
+
+#: ../inc/about-us.php:24
+msgid "Hamza Lite - is a FREE WordPress theme by"
+msgstr ""
+
+#: ../inc/about-us.php:26
+msgid " 8Degree Themes "
+msgstr ""
+
+#: ../inc/about-us.php:29
+msgid "For demo, click"
+msgstr ""
+
+#: ../inc/about-us.php:29 ../inc/about-us.php:30
+msgid " here"
+msgstr ""
+
+#: ../inc/about-us.php:30
+msgid "For documentation, click"
+msgstr ""
+
+#: ../inc/about-us.php:32
+msgid "Other products by 8Degree Themes"
+msgstr ""
+
+#: ../inc/about-us.php:33
+msgid "Our Themes - "
+msgstr ""
+
+#: ../inc/about-us.php:34
+msgid "Our Plugins - "
+msgstr ""
+
+#: ../inc/about-us.php:36
+msgid "Get in touch"
+msgstr ""
+
+#: ../inc/about-us.php:38
+msgid "If you have any question/feedback regarding theme, please post in our forum"
+msgstr ""
+
+#: ../inc/about-us.php:39
+msgid "Forum:"
+msgstr ""
+
+#: ../inc/about-us.php:41
+msgid "For Queries Regading Pro Theme"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:303 ../inc/hamzalite-custom-functions.
+#: php:502
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:304 ../inc/hamzalite-custom-functions.
+#: php:503
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:305 ../inc/hamzalite-custom-functions.
+#: php:504
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:306 ../inc/hamzalite-custom-functions.
+#: php:505
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:307 ../inc/hamzalite-custom-functions.
+#: php:506
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:312 ../inc/hamzalite-custom-functions.
+#: php:511
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:317 ../inc/hamzalite-custom-functions.
+#: php:516
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:322 ../inc/hamzalite-custom-functions.
+#: php:521
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:327 ../inc/hamzalite-custom-functions.
+#: php:526
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:332 ../inc/hamzalite-custom-functions.
+#: php:531
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:337 ../inc/hamzalite-custom-functions.
+#: php:536
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:342 ../inc/hamzalite-custom-functions.
+#: php:541
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:347 ../inc/hamzalite-custom-functions.
+#: php:546
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:352 ../inc/hamzalite-custom-functions.
+#: php:551
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:357 ../inc/hamzalite-custom-functions.
+#: php:556
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:362 ../inc/hamzalite-custom-functions.
+#: php:561
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:368 ../inc/hamzalite-custom-functions.
+#: php:566
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:369
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:370 ../inc/class-tgm-plugin-activation.
+#: php:2989 ../inc/hamzalite-custom-functions.php:567
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:371 ../inc/class-tgm-plugin-activation.
+#: php:2810 ../inc/hamzalite-custom-functions.php:568
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:372 ../inc/hamzalite-custom-functions.
+#: php:569
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:373 ../inc/hamzalite-custom-functions.
+#: php:570
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:374 ../inc/hamzalite-custom-functions.
+#: php:571
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:375
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:376 ../inc/hamzalite-custom-functions.
+#: php:572
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:494
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:495
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:610
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:808 ../inc/class-tgm-plugin-activation.
+#: php:3404
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:925
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:925 ../inc/class-tgm-plugin-activation.
+#: php:929
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:929
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1114 ../inc/class-tgm-plugin-activation.
+#: php:2806
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2177
+msgid "Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2180
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2197
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2201
+msgid "External Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2205
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2224
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2228
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2230
+msgid "Active"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2236
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2239
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2242
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2250
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2299
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:2302
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:2305
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:2308
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:2394
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2402
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2410
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2422
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2446
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2462
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2463
+msgid "Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2464
+msgid "Type"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2468
+msgid "Version"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2472
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2496
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2502
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2508
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2579
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2599
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2605
+msgid "Update"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2608
+msgid "Activate"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2667
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2669
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2792
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2988
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3326
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3330
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3331
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3335
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3336
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3336 ../inc/class-tgm-plugin-activation.
+#: php:3343
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3336 ../inc/class-tgm-plugin-activation.
+#: php:3343
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3337
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3338
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3342
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3343
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3344
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3345
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:64
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:112
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:114
+msgid "Display items in the Left Sidebar of the inner pages"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:122
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:124
+msgid "Display items in the Right Sidebar of the inner pages"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:132
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:134
+msgid "Display items in the Right Sidebar of the inner pages for Woocommerce"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:142
+msgid "Footer One"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:144
+msgid "Display items in First Footer Area"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:152
+msgid "Footer Two"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:154
+msgid "Display items in Second Footer Area"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:162
+msgid "Footer Three"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:164
+msgid "Display items in Third Footer Area"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:172
+msgid "Footer Four"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:174
+msgid "Display items in Fourth Footer Area"
+msgstr ""
+
+#: ../inc/hamzalite-custom-functions.php:367 ../inc/hamzalite-custom-functions.
+#: php:402 ../inc/hamzalite-customizer.php:1377
+msgid "Read More"
+msgstr ""
+
+#. $id
+#: ../inc/hamzalite-custom-metabox.php:22
+msgid "Testimonial Designation"
+msgstr ""
+
+#. $id
+#. $id
+#: ../inc/hamzalite-custom-metabox.php:30 ../inc/hamzalite-custom-metabox.php:38
+msgid "Sidebar Layout"
+msgstr ""
+
+#: ../inc/hamzalite-custom-metabox.php:49
+msgid "Left sidebar"
+msgstr ""
+
+#: ../inc/hamzalite-custom-metabox.php:54
+msgid "Right sidebar<br/>(default)"
+msgstr ""
+
+#: ../inc/hamzalite-custom-metabox.php:59
+msgid "Both Sidebar"
+msgstr ""
+
+#: ../inc/hamzalite-custom-metabox.php:65
+msgid "No sidebar"
+msgstr ""
+
+#: ../inc/hamzalite-custom-metabox.php:79
+msgid "Choose Sidebar Template"
+msgstr ""
+
+#: ../inc/hamzalite-custom-metabox.php:152
+msgid "Add Designation"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:59
+msgid "Default Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:60
+msgid "Default section provided by wordpress customizer."
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:80
+msgid "Basic Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:88
+msgid "Design Layout"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:97
+msgid "fullwidth"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:105
+msgid "Choose Web Page Layout?"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:109
+msgid "Fullwidth"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:110
+msgid "Boxed"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:126
+msgid "Disable Responsive Design?"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:127 ../inc/hamzalite-customizer.php:1567 ..
+#: /inc/hamzalite-customizer.php:1585
+msgid "Check To Disable"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:137
+msgid "Header Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:152
+msgid "Upload Favicon"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:153
+msgid "Upload favicon(.png) with size of 16px X 16px"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:163
+msgid "left"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:171
+msgid "Header Logo Alignment"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:175
+msgid "Left"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:176
+msgid "Center"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:192
+msgid "Check to enable"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:193
+msgid "Show Search in Header?"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:203
+msgid "Portfolio/Products Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:219
+msgid "Select the category to display as Portfolio/Products"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:228
+msgid "Read More Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:246
+msgid "Edit Read More Text"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:247
+msgid "Read More text for Archive page"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:256
+msgid "Footer Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:257
+msgid "Edit Footer Copyright Text"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:283
+msgid "Exclude Category Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:301
+msgid "Category IDs"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:317
+msgid "Typography Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:325
+msgid "Font Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:342
+msgid "Header Tags Font"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:343
+msgid "Choose a font for the headline H1, H2, H3, H4, H5, H6 text"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:361
+msgid "Header Tags Font Weight"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:362
+msgid "Choose a font weight for the headline H1, H2, H3, H4, H5, H6 text"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:385
+msgid "Body Text Font"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:386
+msgid "Choose a font for the Body text"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:404
+msgid "Body Text Font Weight"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:405
+msgid "Choose a font weight for the Body text"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:419
+msgid "Tag Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:437
+msgid "H1 Font Size (px)"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:454
+msgid "H1 Text Transform"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:489
+msgid "H2 Font Size (px)"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:506
+msgid "H2 Text Transform"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:541
+msgid "H3 Font Size (px)"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:558
+msgid "H3 Text Transform"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:593
+msgid "H4 Font Size (px)"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:610
+msgid "H4 Text Transform"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:645
+msgid "H5 Font Size (px)"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:662
+msgid "H5 Text Transform"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:697
+msgid "H6 Font Size (px)"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:714
+msgid "H6 Text Transform"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:749
+msgid "Body Text Font Size (px)"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:779
+msgid "Slider Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:787
+msgid "General Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:804
+msgid "Show/Hide Slider"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:808 ../inc/hamzalite-customizer.php:896
+msgid "Show"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:809 ../inc/hamzalite-customizer.php:897
+msgid "Hide"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:826
+msgid "Show Slider Controls (Arrows)"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:830 ../inc/hamzalite-customizer.php:874
+msgid "Yes"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:831 ../inc/hamzalite-customizer.php:875
+msgid "No"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:848
+msgid "Slider Transition - fade/slide"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:852
+msgid "Fade"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:853
+msgid "Slide"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:870
+msgid "Slider auto Transition"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:892
+msgid "Show slider captions"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:914
+msgid "Choose slider speed?"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:932
+msgid "Choose slider pause time?"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:942
+msgid "Slider Selection Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:959
+msgid "Choose Slider Type"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:963
+msgid "Single Posts as a Slider"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:964
+msgid "Category Posts as a Slider"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:973
+msgid "Slider Selection(Post)"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:974
+msgid "Enable single post as slider in slider selection setting section."
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:989
+msgid "Slider 1"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1005
+msgid "Slider 2"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1021
+msgid "Slider 3"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1037
+msgid "Slider 4"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1048
+msgid "Slider Selection(Category)"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1063
+msgid "Select the Category"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1064
+msgid "Enable category as slider in slider selectoin setting section."
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1081
+msgid "Homepage Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1088
+msgid "Call To Action Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1104
+msgid "Call To Action Post"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1115
+msgid "250"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1123
+msgid "Call To Action Post Excerpt Character"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1125
+msgid "Select the number of character for call to action post excerpt character"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1133
+msgid "Check Out"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1141 ../inc/hamzalite-customizer.php:1385 ..
+#: /inc/widgets/widget-featured-post.php:42
+msgid "Read More Text"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1143
+msgid "Leave blank if you don't want to show read more"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1161
+msgid "Check to show full content"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1171
+msgid "Featured Post Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1188
+msgid "Featured Title"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1205
+msgid "Featured Text"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1207
+msgid "Html content allowed"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1224
+msgid "Check To Enable Font Awesome Icon"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1242
+msgid "Featured Post 1"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1262 ../inc/hamzalite-customizer.php:1297 ..
+#: /inc/hamzalite-customizer.php:1332 ../inc/hamzalite-customizer.php:1368
+msgid "Font Awesome icon name </br> Example: fa-bell"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1277
+msgid "Feature Post 2"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1312
+msgid "Feature Post 3"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1348
+msgid "Feature Post 4"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1387
+msgid "Leave blank if you don't want to show read more!"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1397
+msgid "Latest Blog Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1413
+msgid "Select the category to display as Blog"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1432
+msgid "Check to enable Blog Posted Date"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1433
+msgid "If enabled Blog Posted Date will be shown"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1451
+msgid "Check to disable Blog View All button"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1452
+msgid "if disabled Blog View All button will hide"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1462
+msgid "Testimonail Slider"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1479
+msgid "Select the category to display as Testimonials"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1490
+msgid "Google Map"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1507
+msgid "Google Map Iframe"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1509
+msgid "Enter the Google Map Iframe"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1525
+msgid "Contact Address"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1527
+msgid "Enter the Contact Address Detail"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1540
+msgid "Social Link Settings"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1541
+msgid "Put your social url"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1549
+msgid "Enable/Disable Social Link"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1596
+msgid "Social Links"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1597
+msgid "Put your social url below.. Leave blank if you don't want to show it."
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1615
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1633
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1651
+msgid "Google plus"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1669
+msgid "Linkedin"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1687
+msgid "Youtube"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1699
+msgid "Tools"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1716
+msgid "Custom Css"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1718
+msgid "Put your custom CSS"
+msgstr ""
+
+#: ../inc/hamzalite-customizer.php:1729
+msgid "About Hamza Lite"
+msgstr ""
+
+#: ../inc/hamzalite-reveal-ids.php:69
+msgid "IDs"
+msgstr ""
+
+#: ../inc/hamzalite-reveal-ids.php:69 ../inc/hamzalite-reveal-ids.php:75
+msgid "ID"
+msgstr ""
+
+#: ../inc/hamzalite-template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/hamzalite-template-tags.php:27
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../inc/hamzalite-template-tags.php:31
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../inc/hamzalite-template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/hamzalite-template-tags.php:59
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: ../inc/hamzalite-template-tags.php:60
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../inc/hamzalite-template-tags.php:85
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+
+#: ../inc/widgets/widget-featured-post.php:24
+msgid "A widget that shows featued post."
+msgstr ""
+
+#: ../inc/widgets/widget-featured-post.php:37
+msgid "Post"
+msgstr ""
+
+#: ../inc/widgets/widget-featured-post.php:47
+msgid "Excerpt Character"
+msgstr ""
+
+#: ../inc/widgets/widget-recent-portfolio.php:24
+msgid "A widget that shows recent portfolio with selected category"
+msgstr ""
+
+#: ../inc/widgets/widget-recent-portfolio.php:37 ../inc/widgets/widget-recent-
+#: post.php:37
+msgid "Title"
+msgstr ""
+
+#: ../inc/widgets/widget-recent-portfolio.php:42 ../inc/widgets/widget-recent-
+#: post.php:42
+msgid "Category"
+msgstr ""
+
+#: ../inc/widgets/widget-recent-portfolio.php:47 ../inc/widgets/widget-recent-
+#: post.php:47
+msgid "Number of Posts"
+msgstr ""
+
+#: ../inc/widgets/widget-recent-post.php:24
+msgid "A widget that shows recent posts of selected category"
+msgstr ""
+
+#: ../inc/widgets/widget-recent-post.php:52
+msgid "Show featured image"
+msgstr ""
+
+#: ../inc/widgets/widget-recent-post.php:57
+msgid "Show Post Date"
+msgstr ""
+
+#: ../template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../template-parts/content-page.php:20 ../template-parts/content-single.php:27 .
+#: ./template-parts/content-summary.php:138 ../template-parts/content.php:87
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content-page.php:25 ../template-parts/content-single.php:68
+msgid "Edit"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: ../template-parts/content-single.php:37 ../template-parts/content-single.php:
+#: 40 ../template-parts/content-summary.php:70 ../template-parts/content-summary.
+#: php:80 ../template-parts/content-summary.php:150 ../template-parts/content-
+#: summary.php:160 ../template-parts/content.php:99 ../template-parts/content.php:
+#: 109
+msgid ", "
+msgstr ""
+
+#: ../template-parts/content-single.php:45
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../template-parts/content-single.php:47
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../template-parts/content-single.php:53
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../template-parts/content-single.php:55
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../template-parts/content-summary.php:74 ../template-parts/content-summary.php:
+#: 154 ../template-parts/content.php:103
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../template-parts/content-summary.php:84 ../template-parts/content-summary.php:
+#: 164 ../template-parts/content.php:113
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ../template-parts/content.php:84
+msgid "More"
+msgstr ""
