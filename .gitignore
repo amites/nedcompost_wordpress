@@ -15,7 +15,7 @@ settings_*.py
 *.bak
 *.swp
 
-django.db
+*.pyc
 .sass-cache
 fab_settings.py
 *.lock
