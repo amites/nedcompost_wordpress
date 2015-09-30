@@ -61,7 +61,6 @@ $hamza_lite_footer_copyright = get_theme_mod( 'hamza_lite_footer_text', get_blog
 						} ?>
 					</a>. <a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>"><?php printf( __( 'Powered by %s', 'hamza_lite' ), 'WordPress' ); ?></a>
 					<span class="sep"> | </span>
-					<?php _e( 'Theme:', 'hamza_lite' ) ?> <a href="<?php echo esc_url('http://8degreethemes.com/');?>" title="8Degree Themes" target="_blank">Hamza Lite</a>
 				</div><!-- .copyright -->
 			</div>
 			<?php if($hamza_lite_social_link_footer != 1){?>

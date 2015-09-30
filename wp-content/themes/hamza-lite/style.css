@@ -982,7 +982,7 @@ Slider
 }
 .slider-wrap .bx-wrapper .bx-controls-direction a{
 	opacity: 1;
-	filter=alpha(opacity:100);
+	filter: alpha(opacity=100);
 }
 .multi-border{
 	display: none;
@@ -1030,7 +1030,7 @@ Slider
     z-index: 9999;
 }
 #slider-banner .scroll-down{
-	background:url(images/scroll-down.png) no-repeat;
+	/*background: url("images/scroll-down.png") no-repeat;*/
 	bottom: 57px;
 	display: inline-block;
     left: 50%;
@@ -1077,7 +1077,7 @@ header.site-header {
 .right-header-top{
 	display: inline-flex;
 	display: -webkit-inline-flex;
-	display: -moz-inline-flex;
+	display: -ms-inline-flexbox;
     float: right;
     text-align: right;
     margin: 20px 0 0 0;
