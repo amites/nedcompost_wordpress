@@ -52,16 +52,15 @@ $hamza_lite_footer_copyright = get_theme_mod( 'hamza_lite_footer_text', get_blog
         	<div id="middle-footer" class="footer-menu">
 				<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'depth' => -1) ); 	?>
 				<div class="copyright">
-					<?php _e('Copyright', 'hamza_lite'); ?> &copy; <?php echo date('Y') ?> 
 					<a href="<?php echo home_url(); ?>">
 					<?php if(!empty($hamza_lite_footer_copyright)){
 						echo $hamza_lite_footer_copyright; 
 						}else{
 							echo bloginfo('name');
 						} ?>
-					</a>. <a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>"><?php printf( __( 'Powered by %s', 'hamza_lite' ), 'WordPress' ); ?></a>
+					</a>.
 					<span class="sep"> | </span>
-				</div><!-- .copyright -->
+				</div><?php // <!-- .copyright --> ?>
 			</div>
 			<?php if($hamza_lite_social_link_footer != 1){?>
 			<div class="footer-socials clearfix">
